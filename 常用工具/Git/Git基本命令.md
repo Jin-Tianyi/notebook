@@ -34,7 +34,34 @@ git branch newbranch  #创建一个分支
 git merge dev #合同分支，如要将dev分支合并到master分支，应先checkout master分支
 git merge #合并多个
 git branch -d dev #删除dev分支
+#以下两条为初次创建仓库时使用
+git remote add origin https://github.com/Jin-Tianyi/springcloudproject.git  #添加远程仓库
+git push --set-upstream origin master   #推送至远程master 分支
+#已创建远程master分支时
+git push origin master  #推送至远程master 分支
+git push -u origin master -f #推送强制覆盖已有的分支
+
+#新建分支
+git branch eureka 
+git checkout eureka #新建本地分支eureka
+git push origin eureka  #新建远程分支并推送至eureka
+git push origin --delete [branch_name] #删除分支 删除后需要commit push
+
 ```
+##### 四、本地代码关联远程仓库
+```
+git init #初始化仓库
+git remote add origin https://github.com/Jix/xxxx.git  #添加远程仓库
+git add .
+git commit -m 'first commit'
+git push --set-upstream origin master   #推送至远程master 分支
+```
+##### 五、远程仓库拉取到本地
+```
+git clone https://github.com/Jix/xxxx.git 
+```
+
+
 
 ##### 操作记录
 ```$git
