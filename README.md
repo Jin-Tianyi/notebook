@@ -11,7 +11,7 @@
 5. <a href = "Redis/README.md">Redis</a>
 6. <a href = "Nginx/README.md">Nginx</a>
 7. <a href = "数据库/README.md">数据库</a>
-    - <a href = "数据库/Mysql/README.md">MySql</a>
+    - <a href = "数据库/MySql/README.md">MySql</a>
         - <a href = "数据库/MySql/MySQL字段注释添加和查看.md">MySQL字段注释添加和查看</a>
     - <a href = "数据库/Oracle/README.md">Oracle</a>
 8. <a href = "Docker/README.md">Docker</a>
